@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Test.Xam.ImportedFiles</id>
+    <version>0.1.0</version>
+    <authors>mattward</authors>
+    <owners>mattward</owners>
+    <licenseUrl>https://github.com/mrward/TestXamImportedFiles</licenseUrl>
+    <projectUrl>https://github.com/mrward/TestXamImportedFiles</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test imported files</description>
+    <copyright>Copyright 2022</copyright>
+    <dependencies>
+      <group targetFramework="netstandard1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="build/**" target="build" />
+    <file src="lib/**" target="lib" />
+  </files>
+</package>
